@@ -314,7 +314,7 @@ h3{
     }
 }
 
-@media (max-width: 478px){
+@media (max-width: 410px){
 
     .cloud2{
         position: absolute;
@@ -330,5 +330,38 @@ h3{
         width: 120px;
         top: 90px;
         left: 10px;
+    }
+    .container{
+        margin: 20px;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #web-down{
+        translate: 0px 154px;
+    }
+
+    #web-top{
+        translate: 0px -564px;
+    }
+
+    #jira-down{
+        translate: 0px 184px;
+    }
+
+    #jira-top{
+        translate: 0px -350px;
+    }
+
+    #lr-down{
+        translate: 0px 154px;
+    }
+
+    #lr-top{
+        translate: 0px -360px;
     }
 }
