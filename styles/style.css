@@ -1,0 +1,334 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #c5f3ed;
+    width: 100vw;
+}
+
+.navbar{
+    width: 100vw;
+    height: 80px;
+    background-color: #22a795;
+}
+
+.nav-list{
+    height: 80px;
+    display: flex;
+    float: right;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.navbar li{
+    list-style: none;
+}
+
+.navbar img{
+    width: 70px;
+    height: 60px;
+    margin: 10px 0px 0px 10px;
+}
+ 
+.navbar a{
+    text-decoration: none;
+    flex-direction: row;
+    font-size: 25px;
+    color: white;
+    transition: all 0.2s ease-in;
+}
+
+.navbar a:hover{
+    font-size: 28px;
+}
+
+
+.intro{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro h1{
+    margin: 5px;
+    font-family: 'Great Vibes', cursive, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+.intro h2{
+    margin-bottom: 10px;
+    font-family: 'Great Vibes', cursive, sans-serif;
+    font-size: 50px;
+    z-index: 10;
+    font-weight: 10;
+}
+
+.bar{
+    background-color: rgb(14, 122, 88);
+    width: 5px;
+    height: 350px;
+    position: relative;
+}
+
+.intro img{
+    width: 300px;
+    height: 350px;
+}
+
+.pic{
+    width: 70%;
+    height: 350px;
+    display: flex;
+}
+.eng img{
+    width: 350px;
+    height: 350px;
+}
+.eng{
+    width: 350px;
+    height: 350px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.photo{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.cloud1{
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    top: 60px;
+    left: 300px;
+}
+.cloud2{
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    top: 120px;
+    right: 50px;
+}
+
+.cloud3{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    top: 120px;
+    left: 50px;
+}
+
+
+.hrcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    border-style: none;
+    border-top: dotted;
+    border-width: 5px;
+    border-color: #142131;
+    width: 70%;
+    margin-top: 20px;
+}
+
+p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.skills{
+    margin-top: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.skills h1{
+    margin-top: 20px;
+}
+.container{
+    margin: 20px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.container img:hover{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+#lr{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+#lr:hover{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+}
+
+.contact{
+    width: 100vw;
+    height: 80px;
+    background-color: #22a795;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact a{
+    height: 40px;
+    width: 40px;
+    margin: 20px;
+}
+.contact img{
+    height: 40px;
+    width: 40px;
+    transition: all 0.2s ease-in;
+}
+
+.contact img:hover{
+    height: 45px;
+    width: 45px;
+}
+
+h3{
+    margin: 20px;
+    font-size: 30px;
+    font-family: 'Rock Salt', cursive, sans-serif;
+}
+
+
+@media (max-width: 930px){
+    .cloud1{
+        visibility: hidden;
+    }
+
+    .cloud2{
+        position: absolute;
+        height: 130px;
+        width: 280px;
+        top: 70px;
+        right: 20px;
+    }
+    
+    .cloud3{
+        position: absolute;
+        height: 100px;
+        width: 150px;
+        top: 110px;
+        left: 30px;
+    }
+
+    .pic{
+        width: 70%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .eng img{
+        width: 200px;
+        height: 200px;
+    }
+    
+    .eng{
+        width: 200px;
+        height: 200px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .photo img{
+        width: 200px;
+        height: 250px;
+    }
+    
+    .photo{
+        width: 200px;
+        height: 250px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .bar{
+        background-color: rgb(14, 122, 88);
+        width: 250px;
+        height: 5px;
+        position: relative;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .intro h1, .intro h2{
+        font-size: 30px;
+        text-align: center;
+        z-index: 10;
+    }
+
+    .intro{
+        margin-top: 30px;
+    }
+
+}
+@media (max-width: 600px){
+
+    .cloud2{
+        position: absolute;
+        height: 100px;
+        width: 250px;
+        top: 70px;
+        right: 20px;
+    }
+    
+    .cloud3{
+        position: absolute;
+        height: 100px;
+        width: 150px;
+        top: 100px;
+        left: 10px;
+    }
+}
+
+@media (max-width: 478px){
+
+    .cloud2{
+        position: absolute;
+        height: 80px;
+        width: 220px;
+        top: 70px;
+        right: 10px;
+    }
+    
+    .cloud3{
+        position: absolute;
+        height: 80px;
+        width: 120px;
+        top: 90px;
+        left: 10px;
+    }
+}
